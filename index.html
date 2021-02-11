@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery heading - zadnji assing</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            font-size: 2vw;
+           
+        }
+       .row {
+          width: 90%;
+          max-width: 960px;
+          margin: 0 auto;
+             }
+ 
+        .row::after {
+          content: " ";
+          display: block;
+          clear: left;
+           }
+ 
+.column {
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 16px;
+}
+ 
+.box {
+height: 144px;
+background-color: #86c7f3;
+background-image: url(placeholder-image.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+border-radius: 8px;
+}
+
+
+.text {
+    position: relative;
+    font-size: 17px;
+    border: 1px solid rgb(206, 205, 205);
+    background-color: white;
+    border-radius: 0px 0px 8px 8px;
+    
+    top: 90%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+   text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+.column {
+width: 33.33%;
+}
+body {
+    font-size: 2.2vw;
+}
+}
+ 
+@media screen and (max-width: 768px) {
+.column {
+width: 50%;
+}
+body {
+    font-size: 2.5vw;
+}
+}
+ 
+@media screen and (max-width: 414px) {
+.column {
+width: 100%;
+}
+body {
+    font-size: 3vw;
+}
+}
+h1 {
+    font-size: 2em;;
+}
+p {
+    font-size: 1em;
+    text-align: center;
+    
+}
+
+
+/* Nadam se da moze ovako */
+   </style>
+</head>
+<body>
+    <h1>Gallery Heading</h1>
+    <div class="row" >
+        <div class="column"> 
+        <div class="box">
+            <div class="text">Title Image</div>
+        </div>
+        </div>
+        <div class="column">
+        <div class="box">
+            <div class="text">Title Image</div>
+    </div>
+        
+        </div>
+        <div class="column">
+        <div class="box">
+            <div class="text">Title Image</div>
+    </div>
+        </div>
+        <div class="column">
+        <div class="box">
+            <div class="text">Title Image</div>
+    </div>
+        </div>
+        <div class="column">
+        <div class="box">
+            <div class="text">Title Image</div>
+    </div>
+        </div>
+        <div class="column">
+        <div class="box">
+            <div class="text">Title Image</div>
+    </div>
+        </div>
+        <div class="column">
+            <div class="box">
+                <div class="text">Title Image</div>
+        </div>
+            </div>
+            <div class="column">
+            <div class="box">
+                <div class="text">Title Image</div>
+        </div>
+            </div>
+            <div class="column">
+            <div class="box">
+                <div class="text">Title Image</div>
+        </div>
+            </div>
+            <div class="column">
+            <div class="box">
+                <div class="text">Title Image</div>
+        </div>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet convallis velit, ultrices pharetra ligula.
+             Etiam vel urna sed urna dapibus egestas nec sit amet dolor. Nullam sed dignissim quam. 
+             Curabitur scelerisque, purus vitae convallis venenatis, leo nisl sodales mauris, vitae gravida elit ex et erat. 
+             Ut faucibus, dui ac facilisis malesuada, lectus augue tristique mauris, id placerat velit velit id turpis. 
+             Nullam convallis ultrices hendrerit. Pellentesque vitae est sit amet ex egestas sodales. Suspendisse nec dictum lorem.
+             Pellentesque vulputate cursus lorem, sit amet interdum mi ullamcorper eget.</p>
+    
+</body>
+</html>
